@@ -65,6 +65,7 @@ Python 3.8+
 pip (Python package installer)
 
 Step-by-Step Installation:
+
 1.Download Code
 
 2.Create a virtual environment (recommended):
@@ -93,13 +94,13 @@ Create a Database: Create a new database, e.g., gold_price_db.
 Set Environment Variable: The application connects to the database using an environment variable named DATABASE_URL. Set this variable in your terminal before running the app.
 
 # Example for macOS/Linux (replace with your actual database credentials)
-export DATABASE_URL="postgresql://user:password@localhost:5432/gold_price_db"
+export DATABASE_URL="Enter Your Postgresql URL"
 
 # Example for Windows (Command Prompt)
-set DATABASE_URL="postgresql://user:password@localhost:5432/gold_price_db"
+set DATABASE_URL="Enter Your Postgresql URL"
 
 # Example for Windows (PowerShell)
-$env:DATABASE_URL="postgresql://user:password@localhost:5432/gold_price_db"
+$env:DATABASE_URL="Enter Your Postgresql URL"
 
 Ensure the user has appropriate permissions for the database.
 Usage
