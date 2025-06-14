@@ -109,7 +109,7 @@ streamlit run app.py
 
 
 Interact with the Application:
-The application will open in your web browser (usually http://localhost:8501).
+The application will open in your web browser (usually http://localhost:5000).
 Use the sidebar to adjust the date range for historical data, select gold tickers (USD or ETF), choose machine learning models, and configure feature engineering options.
 
 Explore different tabs for Data Analysis, Model Performance, Detailed Predictions, Future Forecasts, and Saved Data.
